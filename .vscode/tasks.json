@@ -9,9 +9,9 @@
                 "-g",
                 "${workspaceFolder}/src/*.cpp",
                 "${workspaceFolder}/include/*.h",
-                "${workspaceFolder}/principal.cpp",
+                "${workspaceFolder}/main.cpp",
                 "-o",
-                "${workspaceFolder}/bin/programa"
+                "${workspaceFolder}/bin/main"
             ],
             "options": {
                 "cwd": "${workspaceFolder}"

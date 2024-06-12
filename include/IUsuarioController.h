@@ -4,6 +4,7 @@
 #include "DTFecha.h"
 #include "Direccion.h"
 #include "dataUsuario.h"
+#include "DTUserVendedor.h"
 #include <iostream>
 #include <string.h>
 #include <set>
