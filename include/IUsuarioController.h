@@ -18,7 +18,7 @@ class IUsuarioController {
         virtual bool datosCliente(Direccion,string)= 0;
         virtual bool datosVendedor(int)= 0;
         virtual list<dataUsuario> infoUsuarios()= 0;
-        virtual set<string> obtenerInfo();
+        virtual set<string> obtenerInfo() = 0;
         //virtual DTUserCliente selecUserC(string nickname);
         virtual DTUserVendedor selecUserV(string nickname);
         virtual ~IUsuarioController(){};

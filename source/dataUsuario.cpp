@@ -5,6 +5,10 @@ dataUsuario::dataUsuario(string nick, DTFecha fecha){
     fechaNac = fecha;
 }
 
+string dataUsuario::toString(){
+    return "";
+}
+
 string dataUsuario::getnickname(){
     return this->nickname;
 }
