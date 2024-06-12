@@ -25,9 +25,9 @@
 using namespace std;
 
 int main(){
-    //Fabrica * fab = Fabrica::getInstance();
-    UsuarioController * iuc = UsuarioController::getInstance();
-    CompraController * icc = CompraController::getInstance();
+    Fabrica * fab = Fabrica::getInstance();
+    IUsuarioController * iuc = fab->getIUsuarioController();
+    ICompraController * icc = fab->getICompraController();
     int input = -1;
     while(input != 0){
         cout<< "Indique la operacion que quiere realizar \n";
