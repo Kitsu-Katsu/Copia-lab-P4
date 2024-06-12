@@ -24,10 +24,10 @@ class dataVendedor: public dataUsuario {
     private:
         int rut;
     public:
-        dataVendedor();
+        dataVendedor() = default;
         dataVendedor(string,DTFecha,int);
         int getrut();
-        virtual string toString();
+        //virtual string toString();
 };
 
 class dataCliente: public dataUsuario {
@@ -39,7 +39,7 @@ class dataCliente: public dataUsuario {
         dataCliente(string,DTFecha,Direccion,string);
         Direccion getdireccion();
         string getciudad();
-        virtual string toString();
+        //virtual string toString();
 };
 
 #endif
