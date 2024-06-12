@@ -27,7 +27,7 @@ class dataVendedor: public dataUsuario {
         dataVendedor() = default;
         dataVendedor(string,DTFecha,int);
         int getrut();
-        //virtual string toString();
+        string toString();
 };
 
 class dataCliente: public dataUsuario {
@@ -39,7 +39,7 @@ class dataCliente: public dataUsuario {
         dataCliente(string,DTFecha,Direccion,string);
         Direccion getdireccion();
         string getciudad();
-        //virtual string toString();
+        string toString();
 };
 
 #endif
