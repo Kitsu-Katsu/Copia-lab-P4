@@ -20,7 +20,7 @@ class IUsuarioController {
         virtual list<dataUsuario> infoUsuarios()= 0;
         virtual set<string> obtenerInfo() = 0;
         //virtual DTUserCliente selecUserC(string nickname);
-        virtual DTUserVendedor selecUserV(string nickname);
+        virtual DTUserVendedor selecUserV(string nickname) = 0;
         virtual ~IUsuarioController(){};
 };
 
